@@ -123,3 +123,19 @@ body{
 }
 
 
+.arrow{
+    transform: rotate(90deg);
+}
+
+icons{
+    margin-bottom: 25px;
+}
+
+.spin {
+    animation: spin 20s linear infinite; 
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
