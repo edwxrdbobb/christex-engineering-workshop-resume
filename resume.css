@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bold{
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+    gap: 5px;
+}
+.flex.just-between{
+    justify-content: space-between;
+}
+.flex.just-around{
+    justify-content: space-around;
+}
+.flex.just-evenly{
+    justify-content: space-evenly;
+}
+.flex-one{
+    flex: 1;
+}
+
+.flex-two{
+    flex: 2;
+}
+.resume-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.resume-row {
+
+}
+.py-4{
+    padding: 1.8rem 0;
+}
+
+.my-4{
+    margin: 1.4rem 0;
+}
+.container{
+    padding: 5rem .5rem;
+    width: 1280px;
+    background-color: white;
+}
+.resume-row .hero-name{
+    padding: 4rem 0;
+    width: auto;
+    height: auto;
+}
+.resume-row .hero-name h1{
+    text-transform: uppercase;
+    font-size: 6rem;
+    transform: rotate(90deg);
+}
+
+
+.resume-row .right .hero-details .hero-img-wrapper img{
+    width: 350px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.resume-row .greeting{
+    font-size: 6.5rem;
+    font-weight: bold;
+}
+.resume-row .bio{
+
+}
+.resume-row .hero-info-wrapper{
+    padding: 0 20px;
+}
+
+.experience .exp-header{
+    padding: 2.2rem 2rem;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+
+.experience .exp-header ul{
+    list-style:outside;
+}
+
+.experience .exp-cont{
+    padding: 10px 5.5rem;
+    margin-right: 150px;
+}
+
+.experience .exp-cont .title{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.profile p{
+    font-size: 22px;
+    color: #7c7c7c;
+}
+
+.work-exp  ul, .edu  ul, .skills ul, .lang ul{
+    list-style: square;
+    margin-left: 40px;
+}
+
+.work-exp ul li, .edu ul li, .skills ul li, .lang ul li{
+    margin: 1.4rem 0;
+}
+
+.work-exp  ul li h1, .edu ul li h1, .skills ul li{
+    color: #414141;
+}
+
+
